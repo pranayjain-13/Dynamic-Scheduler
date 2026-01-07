@@ -1,0 +1,64 @@
+body {
+  background-color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, "Franklin Gothic Medium",
+    "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: lightgrey;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  gap: 100px;
+}
+
+.chaos-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.task-card {
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border-left: 6px solid #ccc;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priority-High {
+  border-left-color: #d9534f;
+}
+.priority-Medium {
+  border-left-color: #f0ad4e;
+}
+.priority-Low {
+  border-left-color: #5cb85c;
+}
