@@ -30,8 +30,6 @@ TPFxSPAM Induction Project<hr>
 A timer which you can start and pause and will be displayed next to every task so that you can complete the task in the time alloted and also a ringing sound when the timer hits zero.
 <hr>
 
-https://github.com/user-attachments/assets/f9e5ca50-d891-496c-899f-771a647e5dfe
-
 
 
 
