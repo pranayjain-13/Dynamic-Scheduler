@@ -1,5 +1,6 @@
 # Dynamic-Scheduler
 TPFxSPAM Induction Project<hr>
+
 ✨Key Features<br>
 <br>
 • Smart Resizing Algorithm: Automatically shrinks tasks from "Ideal" to "Minimum" duration to fit your total available time.<br>
@@ -12,6 +13,7 @@ TPFxSPAM Induction Project<hr>
 2. Navigate into project directory: cd Dynamic-Scheduler
 3. Install the dependencies: npm install
 4. Start the development server: npm run dev (if it doesnt work then try: npm start)
+5. If it shows white screen then try refreshing the page
 <hr>
 
 🧪 How to Use
@@ -22,6 +24,7 @@ TPFxSPAM Induction Project<hr>
 • Green Banner: Appears when your tasks fit the schedule.<br>
 • Red Banner: Appears if the available time is less than the total minimum required.
 <hr>
+
 🤔Further thoughts<br>
 <br>
 A timer which you can start and pause and will be displayed next to every task so that you can complete the task in the time alloted and also a ringing sound when the timer hits zero.
