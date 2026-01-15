@@ -59,7 +59,7 @@ graph TD
 ``` mermaid
 graph TD
     A[User Input] -->|Add Task/Set Time| B(Streamlit Session State)
-    B --> C{Total Time > Budget?}
+    B --> C{Total Time > Available Time?}
     C -- No --> D[Render Ideal Times]
     C -- Yes --> E[Reduction Logic]
     
