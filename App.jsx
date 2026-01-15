@@ -139,23 +139,7 @@ export default function App() {
         >
           Clear All
         </button>
-      </div>
-      {totalMinutes > 0 &&
-        totalMinutes < tasks.reduce((sum, t) => sum + parseInt(t.min), 0) && (
-          <div
-            style={{
-              color: "red",
-              fontWeight: "bold",
-              marginBottom: "10px",
-              padding: "10px",
-              background: "#ffe6e6",
-              borderRadius: "8px",
-            }}
-          >
-            ⚠️ Not enough time to meet minimum requirements!
-          </div>
-        )}
-
+  
       {isScheduleValid && (
         <div
           style={{
