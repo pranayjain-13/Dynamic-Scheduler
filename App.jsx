@@ -29,18 +29,11 @@ export default function App() {
   };
 
   const calculateSchedule = () => {
-    // 1. Calculate the absolute minimum time needed for all tasks
+    // Calculate the absolute minimum time needed for all tasks
     const absoluteMinNeeded = tasks.reduce(
       (sum, t) => sum + parseInt(t.min),
       0
     );
-
-    // 2. Check if available time is less than the total minimum
-    if (totalMinutes > 0 && totalMinutes < absoluteMinNeeded) {
-      alert(
-        `Warning: Available time (${totalMinutes}m) is less than the minimum required (${absoluteMinNeeded}m) for all tasks!`
-      );
-    }
     let schedule = tasks.map((t) => ({
       ...t,
       currentDuration: parseInt(t.ideal),
