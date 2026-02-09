@@ -3,8 +3,8 @@ import time
 from supabase import create_client
 
 # --- 1. CONFIG & CONNECTIONS ---
-SUPABASE_URL = "YOUR_SUPABASE_URL"
-SUPABASE_KEY = "YOUR_SUPABASE_KEY"
+SUPABASE_URL = "https://dynamic-scheduler.supabase.co/"
+SUPABASE_KEY = "9328299912"
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 st.set_page_config(page_title="Pro-Task Scheduler", layout="wide")
